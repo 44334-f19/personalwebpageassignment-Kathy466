@@ -1,1 +1,45 @@
-/*Personal Web Page Style Sheet */
+body {
+  padding: 32px; 
+  background-color:white;
+  text-align: left;
+  font-family:serif;
+  color:black;
+} 
+ 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 800px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color:antiquewhite;
+}
+
+
+a:active {
+  color: yellow;
+}
+
+
+
+
+
+ 
